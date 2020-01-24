@@ -1,0 +1,1529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>html-tags-table</title>
+	<style>
+		div.main{
+			width: 100%;
+			height: 50px;
+			background-color: #bfbdbd;
+			text-align: center;
+			margin: 0px;
+		}
+		table{
+			border:3px solid #000000;
+			border-collapse: collapse;
+			text-align: center;
+			margin: 0 auto;
+			width: 70%;
+		}
+		thead{
+			background-color: #eb5744;
+		}
+		td, th {
+			border: 2px solid #000000;
+			padding: 8px;
+
+		}
+		tr:nth-child(odd) {
+			background-color: rgba(239,231,112,0.2);
+		}
+		xmp{
+			padding: 5px;
+			margin-top:0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main">
+		<h2 align="center">HTML TAG EXAMPLE</h2>
+	</div>
+	<table>
+		<thead>
+			<tr>
+				<td rowspan="2">Serial</td>
+				<th colspan="2">Tag</th>
+				<th rowspan="2">Tag Name</th>
+				<th rowspan="2">Tag Type</th>
+				<th rowspan="2">Code Example</th>
+				<th rowspan="2">Browser View</th>
+			</tr>
+			<tr>
+				<th>Starting Tag</th>
+				<th>Closing Tag</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+				<td><xmp><h1></xmp></td>
+				<td><xmp></h1></xmp></td>
+				<td>Header One</td>
+				<td rowspan="12">Double Tag</td>
+				<td width="400px"><xmp><h1>This is Header 1</h1></xmp></td>
+				<td><h1>This is Header 1</h1></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><xmp><h2></xmp></td>
+				<td><xmp></h2></xmp></td>
+				<td>Header Two</td>
+				<td><xmp><h2>This is Header 2</h2></xmp></td>
+				<td><h2>This is Header 2</h2></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><xmp><h3></xmp></td>
+				<td><xmp></h3></xmp></td>
+				<td>Header Three</td>
+				<td><xmp><h3>This is Header 3</h3></xmp></td>
+				<td><h3>This is Header 3</h3></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><xmp><h4></xmp></td>
+				<td><xmp></h4></xmp></td>
+				<td>Header Four</td>
+				<td><xmp><h4>This is Header 4</h4></xmp></td>
+				<td><h4>This is Header 4</h4></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><xmp><h5></xmp></td>
+				<td><xmp></h5></xmp></td>
+				<td>Header Five</td>
+				<td><xmp><h5>This is Header 5</h5></xmp></td>
+				<td><h5>This is Header 5</h5></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><xmp><h6></xmp></td>
+				<td><xmp></h6></xmp></td>
+				<td>Header Six</td>
+				<td><xmp><h6>This is Header 6</h6></xmp></td>
+				<td><h6>This is Header 6</h6></td>
+			</tr>
+            <tr>
+            	<td></td>
+                <td><xmp><a href="" title=""></xmp></td>
+                <td><xmp></a></xmp></td>
+                <td>Hyperlink, earlier anchor tag</td>
+                <td><xmp><a href="https://www.google.com" title="Google"></a></xmp></td>
+                <td><a href="https://www.google.com" title="Google">Google</a></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><abbr title=""></xmp></td>
+                <td><xmp></abbr></xmp></td>
+                <td>abbreviation</td>
+                <td><xmp><p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p></xmp></td>
+                <td><p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><article></xmp></td>
+                <td><xmp></article></xmp></td>
+                <td>article</td>
+                <td><xmp><article><h1>Google Chrome</h1><p>Google Chrome is a free,
+                 open-source web browser developed by Google,
+                  released in 2008.</p></article></xmp></td>
+                <td><article><h2>Google Chrome</h2><p>Google Chrome is a free,
+                 open-source web browser developed by Google,
+                  released in 2008.</p></article></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><aside></xmp></td>
+                <td><xmp></aside></xmp></td>
+                <td>side bar for layout</td>
+                <td><xmp><aside><h4>Epcot Center</h4>
+                <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+					</aside></xmp></td>
+				<td><aside><h4>Epcot Center</h4>
+                <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+					</aside></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><audio src=""></xmp></td>
+                <td><xmp></audio></xmp></td>
+                <td>To play audio file</td>
+                <td><xmp><audio src="media.mp3" autobuffer autoloop loop controls>Play Audio</audio></xmp></td>
+                <td><audio src="media.mp3" autobuffer autoloop loop controls>Play Audio</audio></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><b></xmp></td>
+                <td><xmp></b></xmp></td>
+                <td>bold tag</td>
+                <td><xmp><p>This is <b>Bold Tag</b>.</p></xmp></td>
+                <td><p>This is <b>Bold Tag</b></p>.</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><base href=""></xmp></td>
+                <td> - </td>
+                <td>base URL</td>
+                <td>Single tag</td>
+                <td><xmp><base href="https://www.google.com/" target="_blank"></xmp></td>
+                <td>No View</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><bdi></xmp></td>
+                <td><xmp></bdi></xmp></td>
+                <td>BiDi Isolate</td>
+                <td rowspan="4">Double Tag</td>
+                <td><xmp><p>User <bdi>إيان</bdi>: 90 points</xmp></p></td>
+                <td>User <bdi>إيان</bdi>: 90 points</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><bdo dir="ltr rtl"></xmp></td>
+                <td><xmp></bdo></xmp></td>
+                <td>BiDi Override</td>
+                <td><xmp><p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p></xmp></td>
+                <td><p><bdo dir="rtl">This paragraph will go right-to-left.</bdo></p></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><blockquote></xmp></td>
+                <td><xmp></blockquote></xmp></td>
+                <td>Block level quotation</td>
+                <td><xmp><blockquote>For 50 years, WWF has been 
+                protecting the future of nature. </blockquote></xmp></td>
+                <td><p>This is Blockquote : </p>
+                	<blockquote cite="http://www.worldwildlife.org/who/index.html">
+						For 50 years, WWF has been protecting the future of nature. 
+						</blockquote></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><body></xmp></td>
+                <td><xmp></body></xmp></td>
+                <td>body of web document</td>
+                <td><xmp><body>
+                	<p>This is body of web document.</p>
+                </body></xmp></td>
+                <td><body><p>This is body of web document.</p></body></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><br></xmp></td>
+                <td> - </td>
+                <td>line break</td>
+                <td>Empty Tag</td>
+                <td><xmp>This is 1st Line <br> This is 2nd Line</xmp></td>
+                <td>This is 1st Line <br> This is 2nd Line</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><button type=""></xmp></td>
+                <td><xmp></button></xmp></td>
+                <td>button tag</td>
+                <td rowspan="5">Double Tag</td>
+                <td><xmp><button type="button">Click Me ! </button></xmp></td>
+                <td><button type="button">Click Me !</button></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><button type=""></xmp></td>
+                <td><xmp></button></xmp></td>
+                <td>Reset button tag</td>
+                <td><xmp><button type="reset">Reset Button </button></xmp></td>
+                <td><button type="reset">Reset Button</button></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><button type=""></xmp></td>
+                <td><xmp></button></xmp></td>
+                <td>Submit button tag for form</td>
+                <td><xmp><button type="submit">Submit </button></xmp></td>
+                <td><button type="submit">Submit</button></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><caption></xmp></td>
+                <td><xmp></caption></xmp></td>
+                <td>caption for table tag</td>
+                <td><xmp><caption>This is caption</caption></xmp></td>
+                <td>This is caption</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><cite></xmp></td>
+                <td><xmp></cite></xmp></td>
+                <td>cited title </td>
+                <td><xmp><p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p></xmp></td>
+                <td><p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><code></xmp></td>
+                <td><xmp></code></xmp></td>
+                <td>Code to show</td>
+                <td>Double tag</td>
+                <td><xmp><code>A piece of computer code</code></xmp></td>
+                <td><code>A piece of computer code</code></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><col span=""></xmp></td>
+                <td> - </td>
+                <td>column for table</td>
+                <td>single tag</td>
+                <td><xmp><col span="2" style="background-color:red"></xmp></td>
+                <td>Background color of column will be red</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><colgroup></xmp></td>
+                <td><xmp></colgroup></xmp></td>
+                <td>group for table columns</td>
+                <td>double tag</td>
+                <td><xmp><colgroup>
+                          <col span="2" style="background-color:red">
+                          <col style="background-color:yellow">
+                        </colgroup></xmp></td>
+                <td>Background color of column will be red and yellow</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><command></xmp></td>
+                <td> - </td>
+                <td>command</td>
+                <td rowspan="4">single tag</td>
+                <td><xmp><command type="command checkbox radio" 
+                	label="Use Command" 
+                	title="Use Command does stuff" 
+                	icon="/icons/command.png"></xmp></td>
+            	<td><command type="command checkbox radio" 
+                	label="Use Command" 
+                	title="Use Command does stuff" 
+                	icon="/icons/command.png"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><command></xmp></td>
+                <td> - </td>
+                <td>command for an action </td>
+                <td><xmp><command type="command" icon="/icons/command.png"></xmp></td>
+            	<td><command type="command" icon="/icons/command.png"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><command></xmp></td>
+                <td> - </td>
+                <td>select single item from list </td>
+                <td><xmp><command type="radio" icon="/icons/command.png"></xmp></td>
+            	<td><command type="radio" icon="/icons/command.png"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><command></xmp></td>
+                <td> - </td>
+                <td>check or uncheck items from list </td>
+                <td><xmp><command type="checkbox" icon="/icons/command.png"></xmp></td>
+            	<td><command type="checkbox" icon="/icons/command.png"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><datalist></xmp></td>
+                <td><xmp></datalist></xmp></td>
+                <td>datalist for input controls</td>
+                <td>double tag</td>
+                <td><xmp><datalist id="browsers">
+                            <option value="Internet Explorer">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                          </datalist></xmp></td>
+                <td><datalist id="browsers">
+                            <option value="Internet Explorer">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                          </datalist></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><dd></xmp></td>
+                <td><xmp></dd></xmp></td>
+                <td>description data</td>
+                <td>Double tag</td>
+                <td><xmp><dl>
+                            <dt>Coffee</dt>
+                            <dd>Black hot drink</dd>
+                            <dt>Milk</dt>
+                            <dd>White cold drink</dd>
+                        </dl></xmp></td>
+                <td><dl>
+                        <dt>Coffee</dt>
+                        <dd>Black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>White cold drink</dd>
+                    </dl></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><del></xmp></td>
+                <td><xmp></del></xmp></td>
+                <td>deleted text</td>
+                <td>double text</td>
+                <td><xmp>this is <del>deleted</del> text</xmp></td>
+                <td>this is <del>deleted</del> text</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><details></xmp></td>
+                <td><xmp></details></xmp></td>
+                <td>details for collapsible content</td>
+                <td>double tag</td>
+                <td><xmp><details>
+                	<summary>title or explanatory caption</summary>
+                </details></xmp></td>
+                <td><details>
+                	<summary>title or explanatory caption</summary>
+                </details></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><dfn></xmp></td>
+                <td><xmp></dfn></xmp></td>
+                <td>Define Instance</td>
+                <td>Double tag</td>
+                <td><xmp><p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p></xmp></td>
+                <td><p><dfn>HTML</dfn> is the standard markup language for creating web pages.</p></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><div></xmp></td>
+                <td><xmp></div></xmp></td>
+                <td>division, block level element for grouping</td>
+                <td>double tag</td>
+                <td><xmp><div>
+                	<p>This is a block level element</p>
+                </div></xmp></td>
+                <td><div>
+                	<p>This is a block level element</p>
+                </div></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><dl></xmp></td>
+                <td><xmp></dl></xmp></td>
+                <td>Description List</td>
+                <td>double tag</td>
+                <td><xmp><dl>
+                            <dt>Coffee</dt>
+                            <dd>Black hot drink</dd>
+                            <dt>Milk</dt>
+                            <dd>White cold drink</dd>
+                        </dl></xmp></td>
+                <td><dl>
+                            <dt>Coffee</dt>
+                            <dd>Black hot drink</dd>
+                            <dt>Milk</dt>
+                            <dd>White cold drink</dd>
+                        </dl></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><dt></xmp></td>
+                <td><xmp></dt></xmp></td>
+                <td>Description Term</td>
+                <td>double tag</td>
+                <td><xmp><dl>
+                            <dt>Coffee</dt>
+                            <dd>Black hot drink</dd>
+                            <dt>Milk</dt>
+                            <dd>White cold drink</dd>
+                        </dl></xmp></td>
+                <td><dl>
+                        <dt>Coffee</dt>
+                        <dd>Black hot drink</dd>
+                        <dt>Milk</dt>
+                        <dd>White cold drink</dd>
+                    </dl></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><em></xmp></td>
+                <td><xmp></em></xmp></td>
+                <td>emphasize text</td>
+                <td>Double tag</td>
+                <td><xmp><em>Emphasized text</em></xmp></td>
+                <td><em>Emphasized text</em></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><embed></xmp></td>
+                <td> - </td>
+                <td>To embed plugins</td>
+                <td>single Tag</td>
+                <td><xmp><embed src="helloworld.swf"></xmp></td>
+                <td><embed src="helloworld.swf"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><fieldset></xmp></td>
+                <td><xmp></fieldset></xmp></td>
+                <td>group of form controls</td>
+                <td>Double tag</td>
+                <td><xmp><fieldset>
+                	        <legend>title or explanatory caption</legend>
+                        </fieldset></xmp></td>
+                <td><fieldset>
+            	        <legend>title or explanatory caption</legend>
+                    </fieldset></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><figcaption></xmp></td>
+                <td><xmp></figcaption></xmp></td>
+                <td>caption for figure</td>
+                <td>Double Tag</td>
+                <td><xmp><figcaption>This is figure caption</figcaption></xmp></td>
+                <td><figcaption>This is figure caption</figcaption></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><figure></xmp></td>
+                <td><xmp></figure></xmp></td>
+                <td>Items like picture or graphical content</td>
+                <td>Double tag</td>
+                <td><xmp><figure>
+                            <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+                        </figure></xmp></td>
+                <td><figure>
+                        <img src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">
+                    </figure></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><footer></xmp></td>
+                <td><xmp></footer></xmp></td>
+                <td>footer of content</td>
+                <td>Double tag</td>
+                <td><xmp><footer>
+                	        this is foooter section
+                        </footer></xmp></td>
+                <td><footer>
+                	this is foooter section
+                </footer></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><form></xmp></td>
+                <td><xmp></form></xmp></td>
+                <td>form to submit user information to server</td>
+                <td>Double Tag</td>
+                <td><xmp><form action="/action_page.php">
+                            First name: <input type="text" name="FirstName" value="Mickey"><br>
+                            Last name: <input type="text" name="LastName" value="Mouse"><br>
+                            <input type="submit" value="Submit">
+                        </form></xmp></td>
+                <td><form action="/action_page.php">
+                            First name: <input type="text" name="FirstName" value="Mickey"><br>
+                            Last name: <input type="text" name="LastName" value="Mouse"><br>
+                            <input type="submit" value="Submit">
+                    </form></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><head></xmp></td>
+                <td><xmp></head></xmp></td>
+                <td>head tag</td>
+                <td>DOuble tag</td>
+                <td><xmp><head>
+                	         <meta charset="utf-8">
+                	         <title>this is title</title>
+                        </head></xmp></td>
+                <td><head>
+            	         <meta charset="utf-8">
+            	         <title>this is title</title>
+                    </head></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><header></xmp></td>
+                <td><xmp></header></xmp></td>
+                <td>header for article, or section</td>
+                <td>double tag</td>
+                <td><xmp><header>
+                            <h1>Most important heading here</h1>
+                            <h2>Less important heading here</h2>
+                            <p>Some additional information here.</p>
+                        </header></xmp></td>
+                <td><header>
+                            <h1>Most important heading here</h1>
+                            <h2>Less important heading here</h2>
+                            <p>Some additional information here.</p>
+                    </header></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><hgroup></xmp></td>
+                <td><xmp></hgroup></xmp></td>
+                <td>group for headings</td>
+                <td>double tag</td>
+                <td><xmp><hgroup>
+                	<h1>Header 1</h1>
+                	<h2>header 2</h2>
+                </hgroup></xmp></td>
+                <td><hgroup>
+                	<h1>Header 1</h1>
+                	<h2>header 2</h2>
+                </hgroup></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><hr></xmp></td>
+                <td> - </td>
+                <td>thematic break, earlier known as horizontal break</td>
+                <td>empty tag</td>
+                <td><xmp><p>HTML is a language for describing web pages.</p>
+                         <hr>
+                         <h1>CSS</h1>
+                         <p>CSS defines how to display HTML elements.</p></xmp></td>
+                <td><p>HTML is a language for describing web pages.</p>
+                         <hr>
+                         <h1>CSS</h1>
+                         <p>CSS defines how to display HTML elements.</p></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><html></xmp></td>
+                <td><xmp></html></xmp></td>
+                <td>root element of html file</td>
+                <td>double tag</td>
+                <td><xmp><!DOCTYPE html>
+                <html>
+                <head>
+                	<title></title>
+                </head>
+                <body>
+                
+                </body>
+                </html></xmp></td>
+                <td><!DOCTYPE html>
+                <html>
+                <head>
+                	<title>sample</title>
+                </head>
+                <body>
+                	<p>this is body of html</p>
+                </body>
+                </html></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><i></xmp></td>
+                <td><xmp></i></xmp></td>
+                <td>italic text</td>
+                <td>Double Tag</td>
+                <td><xmp>this is <i>Italic Text</i></xmp></td>
+                <td>this is <i>Italic Text</i></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><iframe></xmp></td>
+                <td><xmp></iframe></xmp></td>
+                <td>inline frame for external webpages or plugins</td>
+                <td>Double tag</td>
+                <td><xmp><iframe src="https://www.Google.com"></iframe></xmp></td>
+                <td><iframe src="https://www.Google.com"></iframe></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><img></xmp></td>
+                <td> - </td>
+                <td>image tag</td>
+                <td>Single Tag</td>
+                <td><xmp><img src="pic.png" alt="No pic viewable"></xmp></td>
+                <td><img src="pic.png" alt="No pic viewable"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input></xmp></td>
+                <td> - </td>
+                <td>input control</td>
+                <td>single tag</td>
+                <td><xmp><input type="text" name=""></xmp></td>
+                <td><input type="text" name=""></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="text"></xmp></td>
+                <td> - </td>
+                <td>input control for text</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="text"></xmp></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="password"></xmp></td>
+                <td> - </td>
+                <td>input control for password</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="password"></xmp></td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="checkbox"></xmp></td>
+                <td> - </td>
+                <td>input control for checkbox</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="checkbox"></xmp></td>
+                <td><input type="checkbox"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="radio"></xmp></td>
+                <td> - </td>
+                <td>input control for radio</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="radio"></xmp></td>
+                <td><input type="radio"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="button"></xmp></td>
+                <td> - </td>
+                <td>input control for button</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="button"></xmp></td>
+                <td><input type="button"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="submit"></xmp></td>
+                <td> - </td>
+                <td>input control for submit</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="submit"></xmp></td>
+                <td><input type="submit"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="reset"></xmp></td>
+                <td> - </td>
+                <td>input control for reset</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="reset"></xmp></td>
+                <td><input type="reset"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="file"></xmp></td>
+                <td> - </td>
+                <td>input control for file</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="file"></xmp></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="hidden"></xmp></td>
+                <td> - </td>
+                <td>input control for hidden</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="hidden"></xmp></td>
+                <td><input type="hidden"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="image"></xmp></td>
+                <td> - </td>
+                <td>input control for image</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="image"></xmp></td>
+                <td><input type="image"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="datetime"></xmp></td>
+                <td> - </td>
+                <td>input control for global date and time</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="datetime"></xmp></td>
+                <td><input type="datetime"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="datetime-local"></xmp></td>
+                <td> - </td>
+                <td>input control for local date and time</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="datetime-local"></xmp></td>
+                <td><input type="datetime-local"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type=date"></xmp></td>
+                <td> - </td>
+                <td>input control for date</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="date"></xmp></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="month"></xmp></td>
+                <td> - </td>
+                <td>input control for month</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="month"></xmp></td>
+                <td><input type="month"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="time"></xmp></td>
+                <td> - </td>
+                <td>input control for time</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="time"></xmp></td>
+                <td><input type="time"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="week"></xmp></td>
+                <td> - </td>
+                <td>input control for week and year</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="week"></xmp></td>
+                <td><input type="week"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="number"></xmp></td>
+                <td> - </td>
+                <td>input control for number</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="number"></xmp></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="range"></xmp></td>
+                <td> - </td>
+                <td>input control for range</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="range"></xmp></td>
+                <td><input type="range"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="email"></xmp></td>
+                <td> - </td>
+                <td>input control for email</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="email"></xmp></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="URL"></xmp></td>
+                <td> - </td>
+                <td>input control for URL</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="URL"></xmp></td>
+                <td><input type="URL"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="search"></xmp></td>
+                <td> - </td>
+                <td>input control for search field</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="search"></xmp></td>
+                <td><input type="search"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="tel"></xmp></td>
+                <td> - </td>
+                <td>input control for telephone no</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="tel"></xmp></td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><input type="color"></xmp></td>
+                <td> - </td>
+                <td>input control for color</td>
+                <td>SIngle Tag</td>
+                <td><xmp><input type="color"></xmp></td>
+                <td><input type="color"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><ins></xmp></td>
+                <td><xmp></ins></xmp></td>
+                <td>inserted text</td>
+                <td>Double Tag</td>
+                <td><xmp><p>My favorite color is <del>blue</del> <ins>red</ins>!</p></xmp></td>
+                <td><p>My favorite color is <del>blue</del> <ins>red</ins>!</p></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><kbd></xmp></td>
+                <td><xmp></kbd></xmp></td>
+                <td>keyboard command</td>
+                <td>Double Tag</td>
+                <td><xmp><kbd>Keyboard input</kbd></xmp></td>
+                <td><kbd>Keyboard input</kbd></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><keygen keytype="rsa"></xmp></td>
+                <td><xmp></keygen>%0</xmp></td>
+                <td>key/pair generator input control</td>
+                <td>DOuble Tag</td>
+                <td><xmp><form action="demo_keygen.asp" method="get">
+                               Username: <input type="text" name="usr_name">
+                               Encryption: <keygen name="security">
+                               <input type="submit">
+                        </form></xmp></td>
+                <td><form action="demo_keygen.asp" method="get">
+                               Username: <input type="text" name="usr_name">
+                               Encryption: <keygen name="security">
+                               <input type="submit">
+                        </form></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><label></xmp></td>
+                <td><xmp></label></xmp></td>
+                <td>caption for input and form controls</td>
+                <td>Double Tag</td>
+                <td><xmp><label for="male">Male</label></xmp></td>
+                <td><label for="male">Male</label></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><legend></xmp></td>
+                <td><xmp></legend></xmp></td>
+                <td>title for fieldset</td>
+                <td>Double Tag</td>
+                <td><xmp><legend>Personalia:</legend></xmp></td>
+                <td><legend>Personalia:</legend></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><li></xmp></td>
+                <td><xmp></li></xmp></td>
+                <td>list item</td>
+                <td>Double Tag</td>
+                <td><xmp><li>List Item 1</li></xmp></td>
+                <td><li>List Item 1</li></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><link rel="stylesheet"></xmp></td>
+                <td> - </td>
+                <td>link for css, icon, canonical etc.</td>
+                <td>Double Tag</td>
+                <td><xmp><link rel="stylesheet" type="text/css" href="style.css"></xmp></td>
+                <td><link rel="stylesheet" type="text/css" href="style.css"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><map name=""></xmp></td>
+                <td><xmp></map></xmp></td>
+                <td>image map </td>
+                <td>Double Tag</td>
+                <td><xmp><map name="planetmap">
+                            <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+                            <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+                            <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+                        </map></xmp></td>
+                <td><map name="planetmap">
+                            <area shape="rect" coords="0,0,82,126" href="sun.htm" alt="Sun">
+                            <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury">
+                            <area shape="circle" coords="124,58,8" href="venus.htm" alt="Venus">
+                        </map></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><mark></xmp></td>
+                <td><xmp></mark></xmp></td>
+                <td>marked or highlighted text</td>
+                <td>Double tag</td>
+                <td><xmp><p>Do not forget to buy <mark>milk</mark> today.</p></xmp></td>
+                <td><p>Do not forget to buy <mark>milk</mark> today.</p></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><menu type="context toolbar"></xmp></td>
+                <td><xmp></menu></xmp></td>
+                <td>list of commands</td>
+                <td>Double tag</td>
+                <td><xmp><menu type="context toolbar">
+                	<li>Menu 1</li>
+                	<li>Menu 2</li>
+                </menu></xmp></td>
+                <td><menu type="context toolbar">
+                	<li>Menu 1</li>
+                	<li>Menu 2</li>
+                </menu></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><meta http-equiv=""></xmp></td>
+                <td> - </td>
+                <td>metadata for preferred stylesheet</td>
+                <td>Single Tag</td>
+                <td><xmp><meta http-equiv="refresh" content="30"></xmp></td>
+                <td><meta http-equiv="refresh" content="30"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><meta></xmp></td>
+                <td> - </td>
+                <td>metadata for charset encoding declaration, exp utf-8</td>
+                <td>single tag</td>
+                <td><xmp><meta name="keywords" content="HTML,CSS,XML,JavaScript"></xmp></td>
+                <td><meta name="keywords" content="HTML,CSS,XML,JavaScript"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><meter></meter></xmp></td>
+                <td><xmp></meter></xmp></td>
+                <td>meter , a scalar gauge</td>
+                <td>Double tag</td>
+                <td><xmp><meter value="2" min="0" max="10">2 out of 10</meter><br></xmp></td>
+                <td><meter value="2" min="0" max="10">2 out of 10</meter><br></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><nav></xmp></td>
+                <td><xmp></nav></xmp></td>
+                <td>group of navigation links</td>
+                <td>Double Tag</td>
+                <td><xmp><nav>
+                	<ul>
+                		<li><a href="https://www.google.com" title="Google">Link 1</a></li>
+                		<li><a href="https://www.yahoo.com" title="Yahoo">Link 1</a></li>
+                		<li><a href="https://www.pexels.com" title="Pexels">Link 1</a></li>
+                	</ul>
+                </nav></xmp></td>
+                <td><nav>
+                	<ul>
+                		<li><a href="https://www.google.com" title="Google">Link 1</a></li>
+                		<li><a href="https://www.yahoo.com" title="Yahoo">Link 1</a></li>
+                		<li><a href="https://www.pexels.com" title="Pexels">Link 1</a></li>
+                	</ul>
+                </nav></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><noscript></xmp></td>
+                <td><xmp></noscript></xmp></td>
+                <td>fallback content if Javascript is disabled in browser</td>
+                <td>Double Tag</td>
+                <td><xmp><noscript>Your browser does not support JavaScript!</noscript></xmp></td>
+                <td><noscript>Your browser does not support JavaScript!</noscript></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><object></xmp></td>
+                <td><xmp></object></xmp></td>
+                <td>genetic external object</td>
+                <td>DOuble Tag</td>
+                <td><xmp><object width="400" height="400" data="helloworld.swf"></object></xmp></td>
+                <td><object width="100" height="100" data="helloworld.swf"></object></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><ol></xmp></td>
+                <td><xmp></ol></xmp></td>
+                <td>ordered list</td>
+                <td>Double Tag</td>
+                <td><xmp><ol>
+                	<li>Item 1</li>
+                	<li>Item 2</li>
+                </ol></xmp></td>
+                <td><ol>
+                	<li>Item 1</li>
+                	<li>Item 2</li>
+                </ol></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><optgroup></xmp></td>
+                <td><xmp></optgroup></xmp></td>
+                <td>group of options</td>
+                <td>Double Tag</td>
+                <td><xmp><select>
+                            <optgroup label="Swedish Cars">
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                            </optgroup>
+                            <optgroup label="German Cars">
+                              <option value="mercedes">Mercedes</option>
+                              <option value="audi">Audi</option>
+                            </optgroup>
+                        </select></xmp></td>
+                <td><select>
+                            <optgroup label="Swedish Cars">
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                            </optgroup>
+                            <optgroup label="German Cars">
+                              <option value="mercedes">Mercedes</option>
+                              <option value="audi">Audi</option>
+                            </optgroup>
+                        </select></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><option></xmp></td>
+                <td><xmp></option></xmp></td>
+                <td>option for select and datalist</td>
+                <td>Double Tag</td>
+                <td><xmp><select>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select></xmp></td>
+                <td><select>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="opel">Opel</option>
+                            <option value="audi">Audi</option>
+                        </select></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><output name=""></xmp></td>
+                <td><xmp></output></xmp></td>
+                <td>result of calculations</td>
+                <td>Double Tag</td>
+                <td><xmp><form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+                            <input type="range" id="a" value="50">100
+                            +<input type="number" id="b" value="50">
+                            =<output name="x" for="a b"></output>
+                        </form></xmp></td>
+                <td><form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
+                            <input type="range" id="a" value="50">100
+                            +<input type="number" id="b" value="50">
+                            =<output name="x" for="a b"></output>
+                        </form></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><p></xmp></td>
+                <td><xmp></p></xmp></td>
+                <td>paragraph</td>
+                <td>Double Tag</td>
+                <td><xmp><p>This is paragraph.</p></xmp></td>
+                <td><p>This is paragraph.</p></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><param name="" value=""></xmp></td>
+                <td> - </td>
+                <td>initilization parameter for plugins</td>
+                <td>Single Tag</td>
+                <td><xmp><object data="horse.wav">
+                            <param name="autoplay" value="true">
+                        </object></xmp></td>
+                <td><object data="horse.wav">
+                            <param name="autoplay" value="true">
+                        </object></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><pre></xmp></td>
+                <td><xmp></pre></xmp></td>
+                <td>preformatted text</td>
+                <td>Double Tag</td>
+                <td><xmp><pre>
+                    Text in a pre element
+                    is displayed in a fixed-width
+                    font, and it preserves
+                    both      spaces and
+                    line breaks</pre></xmp></td>
+                <td><pre>
+                    Text in a pre element
+                    is displayed in a fixed-width
+                    font, and it preserves
+                    both      spaces and
+                    line breaks
+                    </pre></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><progress value="56" max="100"></xmp></td>
+                <td><xmp></progress></xmp></td>
+                <td>progress indicator</td>
+                <td>Double tag</td>
+                <td><xmp>Downloading : <progress value="46" max="100"></progress></xmp></td>
+                <td>Downloading : <progress value="46" max="100"></progress></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><q></xmp></td>
+                <td><xmp></q></xmp></td>
+                <td>inline quoted text</td>
+                <td>Double tag</td>
+                <td><xmp><q>This is Qouted text</q></xmp></td>
+                <td><q>This is Qouted text</q></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><rp></xmp></td>
+                <td><xmp></rp></xmp></td>
+                <td>ruby parenthesis</td>
+                <td>Double Tag</td>
+                <td><xmp><ruby>
+                        漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+                   </ruby></xmp></td>
+                <td><ruby>
+                         漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+                    </ruby></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><rt></xmp></td>
+                <td><xmp></rt></xmp></td>
+                <td>ruby text</td>
+                <td>Double Tag</td>
+                <td><xmp>漢 <rt> ㄏㄢˋ </rt></xmp></td>
+                <td>漢 <rt> ㄏㄢˋ </rt></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><ruby></xmp></td>
+                <td><xmp></ruby></xmp></td>
+                <td>ruby annotation</td>
+                <td>Double Tag</td>
+                <td><xmp><ruby>
+						漢 <rt> ㄏㄢˋ </rt>
+						</ruby></xmp></td>
+				<td><ruby>
+                  漢 <rt> ㄏㄢˋ </rt>
+                  </ruby></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><s></xmp></td>
+                <td><xmp></s></xmp></td>
+                <td>struck text</td>
+                <td>Double Tag</td>
+                <td><xmp><p>Version 2.0 is <s>not yet available!</s> now available!</p></xmp></td>
+                <td>Version 2.0 is <s>not yet available!</s> now available!</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><samp></xmp></td>
+                <td><xmp></samp></xmp></td>
+                <td>sample output</td>
+                <td>doible tag</td>
+                <td><xmp><samp>Sample output from a computer program</samp></xmp></td>
+                <td><samp>Sample output from a computer program</samp></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><section></xmp></td>
+                <td><xmp></section></xmp></td>
+                <td>section container</td>
+                <td>Double Tag</td>
+                <td><xmp><section>
+				  	<h1>WWF</h1>
+				  	<p>The World Wide Fund for Nature (WWF) is....</p>
+				</section></xmp></td>
+				<td><section>
+				  	<h1>WWF</h1>
+				  	<p>The World Wide Fund for Nature (WWF) is....</p>
+				</section></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><select name="" multiple></xmp></td>
+                <td><xmp></select></xmp></td>
+                <td> select dropdown</td>
+                <td>Double Tag</td>
+                <td><xmp><select>
+                         <option value="volvo">Volvo</option>
+                         <option value="saab">Saab</option>
+                         <option value="mercedes">Mercedes</option>
+                         <option value="audi">Audi</option>
+                    </select></xmp></td>
+                <td><select>
+                         <option value="volvo">Volvo</option>
+                         <option value="saab">Saab</option>
+                         <option value="mercedes">Mercedes</option>
+                         <option value="audi">Audi</option>
+                    </select></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><small></xmp></td>
+                <td><xmp></small></xmp></td>
+                <td>small print</td>
+                <td>Double Tag</td>
+                <td><xmp>this is <small>Small Print</small></xmp></td>
+                <td>this is <small>Small Print</small></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><source src="" type="" media=""></xmp></td>
+                <td> - </td>
+                <td>media source for audio, video and picture</td>
+                <td>Single tag</td>
+                <td><xmp><source src="song.mp4" type="audio/mp3"></xmp></td>
+                <td><source src="song.mp4" type="audio/mp3"></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><span></xmp></td>
+                <td><xmp></span></xmp></td>
+                <td>inline level grouping </td>
+                <td>Double tag</td>
+                <td><xmp>My mother has <span style="color:blue">blue</span> eyes.</xmp></td>
+                <td>My mother has <span style="color:blue">blue</span> eyes.</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><strong></xmp></td>
+                <td><xmp></strong></xmp></td>
+                <td>strong importance</td>
+                <td>Double tag</td>
+                <td><xmp>This is <strong>Important Text</strong>.</xmp></td>
+                <td>This is <strong>Important Text</strong>.</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><style></xmp></td>
+                <td><xmp></style></xmp></td>
+                <td>internal or embedded stylesheet</td>
+                <td>Double Tag</td>
+                <td><xmp><style>
+                	*{
+                		font-family: 'Times New Roman',sans-serif;
+                		background: #ddd;
+                	}
+                </style></xmp></td>
+                <td>The text will be in Times New Roman Font and background color will be changed</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><sub></xmp></td>
+                <td><xmp></sub></xmp></td>
+                <td>subscript</td>
+                <td>Double tag</td>
+                <td><xmp>This is <sub>subscript</sub></xmp></td>
+                <td>This is <sub>subscript</sub></td>	
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><summary></xmp></td>
+                <td><xmp></summary></xmp></td>
+                <td>caption for details element</td>
+                <td>Double tag</td>
+                <td><xmp><summary>This is summary</summary></xmp></td>
+                <td><summary>This is summary</summary></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><sup></xmp></td>
+                <td><xmp></sup></xmp></td>
+                <td>superscript</td>
+                <td>Double tag</td>
+                <td><xmp>This is <sup>superscript</sup></xmp></td>
+                <td>This is <sup>superscript</sup></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><table></xmp></td>
+                <td><xmp></table></xmp></td>
+                <td>table element</td>
+                <td>Double tag</td>
+                <td><xmp><table border="1px">
+                	<caption>table title and/or explanatory text</caption>
+                	<thead>
+                		<tr>
+                			<th>header</th>
+                		</tr>
+                	</thead>
+                	<tbody>
+                		<tr>
+                			<td>data</td>
+                		</tr>
+                	</tbody>
+                </table></xmp></td>
+                <td><table border="1px">
+                	<caption>table title and/or explanatory text</caption>
+                	<thead>
+                		<tr>
+                			<th>header</th>
+                		</tr>
+                	</thead>
+                	<tbody>
+                		<tr>
+                			<td>data</td>
+                		</tr>
+                	</tbody>
+                </table></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><tbody></xmp></td>
+                <td><xmp></tbody></xmp></td>
+                <td>table body row group</td>
+                <td>Double Tag</td>
+                <td><xmp><tbody>
+                	<tr></tr>
+                </tbody></xmp></td>
+                <td>Row 1 <br>Row 2</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><td></xmp></td>
+                <td><xmp><td></xmp></td>
+                <td>table data or cell</td>
+                <td>Double Tag</td>
+                <td><xmp><td>Table Data</td></xmp></td>
+                <td>Table Data</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><textarea name=""></xmp></td>
+                <td><xmp></textarea></xmp></td>
+                <td>input textarea</td>
+                <td>Double tag</td>
+                <td><xmp><textarea rows="4"></textarea></xmp></td>
+                <td><textarea rows="4"></textarea></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><tfoot></xmp></td>
+                <td><xmp></tfoot></xmp></td>
+                <td>table footer row group</td>
+                <td>Double Tag</td>
+                <td><xmp><tfoot>
+                	<tr>Table Footer row</tr>
+                </tfoot></xmp></td>
+                <td>Table Footer row</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><th colspan="" rowspan="" headers="" scope=""></xmp></td>
+                <td><xmp></th></xmp></td>
+                <td>table header cell</td>
+                <td>Double tag</td>
+                <td><xmp><th>Table Header </th></xmp></td>
+                <td><b>Table Header</b></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><thead></xmp></td>
+                <td><xmp></thead></xmp></td>
+                <td>table heading group</td>
+                <td>Double Tag</td>
+                <td><xmp><thead>
+                	<tr>Table row, Data Goes here</tr>
+                </thead></xmp></td>
+                <td>Table row, Data Goes here</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><time datetime=""></xmp></td>
+                <td><xmp></time></xmp></td>
+                <td>date or time </td>
+                <td>Double Tag</td>
+                <td><xmp><time datetime="2011-01-12">January 12th, 2011</time></xmp></td>
+                <td><time datetime="2011-01-12">January 12th, 2011</time></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><title></xmp></td>
+                <td><xmp></title></xmp></td>
+                <td>title for web document</td>
+                <td>Double tag</td>
+                <td><xmp><title>This title tag</title></xmp></td>
+                <td><title>This is title</title></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><tr></xmp></td>
+                <td><xmp></tr></xmp></td>
+                <td>table row</td>
+                <td>Double Tag</td>
+                <td><xmp><tr>Table Row</tr></xmp></td>
+                <td>Row 1 <br> Row 2</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><track kind="" src=""></xmp></td>
+                <td> - </td>
+                <td>media track</td>
+                <td>Single Tag</td>
+                <td><xmp><track src="subtitles_no.vtt" kind="subtitles" srclang="no"></xmp></td>
+                <td>No View</td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><u></xmp></td>
+                <td><xmp></u></xmp></td>
+                <td>underline text</td>
+                <td>Double tag</td>
+                <td><xmp>This is <u>Underlined Text</u></xmp></td>
+                <td>This is <u>Underlined Text</u></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><ul></xmp></td>
+                <td><xmp></ul></xmp></td>
+                <td>unordered list</td>
+                <td>Double Tag</td>
+                <td><xmp><ul>
+                	<li>Empty Tag</li>
+                	<li>Double Tag</li>
+                	<li>Single Tag</li>
+                </ul></xmp></td>
+                <td><ul>
+                	<li>Empty Tag</li>
+                	<li>Double Tag</li>
+                	<li>Single Tag</li>
+                </ul></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><var></xmp></td>
+                <td><xmp></var></xmp></td>
+                <td>variable text</td>
+                <td>Double Tag</td>
+                <td><xmp><var>Variable tag</var></xmp></td>
+                <td><var>Variable tag</var></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><video src=""></xmp></td>
+                <td><xmp></video></xmp></td>
+                <td>video tag</td>
+                <td>Double Tag</td>
+                <td><xmp><video src="song.mp4"></video></xmp></td>
+                <td><video src="song.mp4"></video></td>
+            </tr>
+            <tr>
+            	<td></td>
+                <td><xmp><wbr></xmp></td>
+                <td><xmp></wbr></xmp></td>
+                <td>possible line break</td>
+                <td>Double Tag</td>
+                <td><xmp>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.<wbr></wbr></xmp></td>
+                <td>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</td>
+            </tr>
+		</tbody>
+	</table>
+</body>
+</html>
